@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
     <span> {{ numero }} </span>
     <button (click)="acumular(-base)"> - {{ base }} </button>
   `,
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./contador.component.css']
 })
 
 export class ContadorComponent {
